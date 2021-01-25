@@ -1,0 +1,208 @@
+{
+    "torso": {
+        "id": 0, 
+        "sio": 2,
+        "simulation_joint_name" : "Tors_0",
+        "zero": 0,
+        "limits": [-180, 180],
+        "inverse": 1
+    }, 
+    "left_shoulder_pitch": 
+    {
+        "id": 1, 
+        "sio": 1,
+        "simulation_joint_name" : "hand_left_1",
+        "zero": 0,
+        "limits": [-180, 180],
+        "inverse": -1
+    },
+    "right_shoulder_pitch": 
+    {
+        "id": 1, 
+        "sio": 2,
+        "simulation_joint_name" : "hand_right_1",
+        "zero": 0,
+        "limits": [-180, 180],
+        "inverse": -1
+    },
+    "left_shoulder_roll": 
+    {
+        "id": 2, 
+        "sio": 1,
+        "simulation_joint_name" : "hand_left_2",
+        "zero": 0,
+        "limits": [-180, 180],
+        "inverse": 1
+    },
+    "right_shoulder_roll": 
+    {
+        "id": 2, 
+        "sio": 2,
+        "simulation_joint_name" : "hand_right_2",
+        "zero": 0,
+        "limits": [-180, 180],
+        "inverse": 1
+    },
+    "left_elbow_yaw": 
+    {
+        "id": 3, 
+        "sio": 1,
+        "simulation_joint_name" : "hand_left_3",
+        "zero": 0,
+        "limits": [-180, 180],
+        "inverse": 1
+    },
+    "right_elbow_yaw": 
+    {
+        "id": 3, 
+        "sio": 2,
+        "simulation_joint_name" : "hand_right_3",
+        "zero": 0,
+        "limits": [-180, 180],
+        "inverse": 1
+    },
+    "left_elbow_pitch": 
+    {
+        "id": 4, 
+        "sio": 1,
+        "simulation_joint_name" : "hand_left_4",
+        "zero": 0,
+        "limits": [-180, 180],
+        "inverse": -1
+    },
+    "right_elbow_pitch": 
+    {
+        "id": 4, 
+        "sio": 2,
+        "simulation_joint_name" : "hand_right_4",
+        "zero": 0,
+        "limits": [-180, 180],
+        "inverse": -1
+    },
+    "left_hip_yaw": 
+    {
+        "id": 5, 
+        "sio": 1,
+        "simulation_joint_name" : "leg_left_5",
+        "zero": 0,
+        "limits": [-90, 90],
+        "inverse": -1
+    },  
+    "right_hip_yaw": 
+    {
+        "id": 5, 
+        "sio": 2,
+        "simulation_joint_name" : "leg_right_5",
+        "zero": 0,
+        "limits": [-90, 90],
+        "inverse": -1
+    }, 
+    "left_hip_roll":     
+    {
+        "id": 6, 
+        "sio": 1,
+        "simulation_joint_name" : "leg_left_6",
+        "zero": 0,
+        "limits": [-100,  25],
+        "inverse": -1
+    },  
+    "right_hip_roll": 
+    {
+        "id": 6, 
+        "sio": 2,
+        "simulation_joint_name" : "leg_right_6",
+        "zero": 0,
+        "limits": [-100,  25],
+        "inverse": -1
+    },
+    "left_hip_pitch": 
+    {
+        "id": 7, 
+        "sio": 1,
+        "simulation_joint_name" : "leg_left_7",
+        "zero": 0,
+        "limits": [-120, 110],
+        "inverse": 1
+    },  
+    "right_hip_pitch": 
+    {
+        "id": 7, 
+        "sio": 2,
+        "simulation_joint_name" : "leg_right_7",
+        "zero": 0,
+        "limits": [-120, 110],
+        "inverse": 1
+    }, 
+    "left_knee": 
+    {
+        "id": 8, 
+        "sio": 1,
+        "simulation_joint_name" : "leg_left_8",
+        "zero": 0,
+        "limits": [-140, 0],
+        "inverse": 1
+    },  
+    "right_knee": 
+    {
+        "id": 8, 
+        "sio": 2,
+        "simulation_joint_name" : "leg_right_8",
+        "zero": 0,
+        "limits": [-140, 0],
+        "inverse": -1
+    }, 
+    "left_ankle_pitch": 
+    {
+        "id": 9, 
+        "sio": 1,
+        "simulation_joint_name" : "leg_left_9",
+        "zero": 0,
+        "limits": [-135, 100],
+        "inverse": -1
+    },   
+    "right_ankle_pitch": 
+    {
+        "id": 9, 
+        "sio": 2,
+        "simulation_joint_name" : "leg_right_9",
+        "zero": 0,
+        "limits": [-135, 100],
+        "inverse": -1
+    }, 
+    "left_ankle_roll": 
+    {
+        "id": 10, 
+        "sio": 1,
+        "simulation_joint_name" : "leg_left_10",
+        "zero": 0,
+        "limits": [-95, 20],
+        "inverse": 1
+    },   
+    "right_ankle_roll": 
+    {
+        "id": 10, 
+        "sio": 2,
+        "simulation_joint_name" : "leg_right_10",
+        "zero": 0,
+        "limits": [-95, 20],
+        "inverse": 1
+    },   
+    "head_yaw": 
+    {
+        "id": 0, 
+        "sio": 1,
+        "simulation_joint_name" : "head0",
+        "zero": 0,
+        "limits": [-180, 180],
+        "inverse": -1
+    },     
+    "head_pitch": 
+    {
+        "id": 12, 
+        "sio": 2,
+        "simulation_joint_name" : "head12",
+        "zero": 0,
+        "limits": [-180, 180],
+        "inverse": 1
+    } 
+}
