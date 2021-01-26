@@ -150,12 +150,17 @@ class Image:
 
     def draw_rectangle(self, rect):
         x, y, w, h = rect
-        cv2.rectangle(self.img, (x, y), (x+w, y+h), (255, 0, 0), 3)
+        cv2.rectangle(self.img, (x, y), (x + w, y + h), (255, 0, 0), 3)
+
 
 class Sensor:
-    def __init__(self, filename_):
-        self.filename = filename_
-        self.img = cv2.imread(self.filename)
+    def __init__(self):
+        self.img = None
 
     def snapshot(self):
+        if self.img is not None:
+            return Image(self.img.copy())
+
+    def get_frame(self, filename):
+        self.img = cv2.imread(filename)
         return Image(self.img.copy())
