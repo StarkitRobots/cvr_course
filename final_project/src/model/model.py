@@ -19,9 +19,9 @@ class Model:
         self.h = h
         self.k_coefs = k_coefs
         self.p_coefs = p_coefs
-        self.head_to_base_matrix = [[0.99936382, 0.034978, -0.00696373],
-                                    [-0.03510436, 0.99920425, -0.01893518],
-                                    [0.00629587, 0.01916759, 0.99979646]]
+        self.head_to_base_matrix = [[1., 0., 0.],
+                                    [0., 1., 0.],
+                                    [0., 0., 1.]]
 
     # function calculating dot product of matrix and vector
     def matrix_dot_vec(self, matr, vect):
