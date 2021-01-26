@@ -1,5 +1,6 @@
 import math
 
+
 class Model:
     def __init__(self):
         self.camera_pan = 0
@@ -10,7 +11,7 @@ class Model:
         self.camera_pan = camera_pan
         self.camera_tilt = camera_tilt
 
-    def setParams(self, cam_matrix, h, k_coefs, p_coefs):
+    def set_parameters(self, cam_matrix, h, k_coefs, p_coefs):
         # cam_matrix - camera matrix
         # h - camera height
         # k_coefs, p_coefs - coefficients of lense distortion
