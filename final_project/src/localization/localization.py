@@ -2,14 +2,16 @@
 
 class Localization:
     def __init__(self):
-        pass
+        self.robot_position = None
+        self.ball_position_local = None
+        self.ball_position_global = None
 
     
     def update(self, data):
         pass 
 
-    def return_robot_position(self):
-        pass
+    def get_robot_position(self):
+        return self.robot_position
 
-    def return_ball_position(self):
-        pass
+    def get_ball_position(self):
+        return self.ball_position_global
